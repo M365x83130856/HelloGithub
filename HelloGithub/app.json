@@ -1,6 +1,6 @@
 {
-  "id": "cfaed885-94fd-4cc7-8f1a-d6e39eebe542",
-  "name": "HelloGithub",
+  "id": "9bd6d8dc-6afe-4b5a-a8ce-393ef29acee7",
+  "name": "Hello World",
   "publisher": "Rasmus",
   "version": "1.0.0.0",
   "brief": "",
@@ -10,22 +10,23 @@
   "help": "",
   "url": "",
   "logo": "",
-  "dependencies": [],
   "screenshots": [],
+  "dependencies": [],
   "platform": "1.0.0.0",
-  "application": "22.0.0.0",
+  "application": "25.0.0.0",
   "idRanges": [
     {
-      "from": 50200,
-      "to": 50249
+      "from": 50100,
+      "to": 50149
     }
-  ],
-  "features": [
-    "NoImplicitWith"
   ],
   "resourceExposurePolicy": {
     "allowDebugging": true,
-    "allowDownloadingSource": false,
-    "includeSourceInSymbolFile": false
-  }
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "runtime": "14.0",
+  "features": [
+    "NoImplicitWith"
+  ]
 }
